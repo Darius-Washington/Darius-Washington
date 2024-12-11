@@ -1,57 +1,101 @@
 body {
-    background: [red];
-    font-family: Arial, Helvetica, sans-serif;
-    }
-    h1 {
-    color: blue;
+    background: #f8feff; /* Light background for a soft feel */
+    font-family: "Times New Roman", Times, serif; /* Elegant serif font */
+    margin: 40px; /* Overall margin around the content */
+    color: #333; /* Dark gray text color for readability */
+}
+
+h1 {
+    color: #6f7bfc; /* Light blue color for the main heading */
     text-align: center;
-    }
-    body {
-        background: #f8feff;
-        font-family:"Times New Roman", Times, serif;
-        margin: 40px;
-        }
-        h1 {
-        text-align: center;
-        color: #6f7bfc;
-        }
-        h2 {
-        text-align: center;
-        color: Red;
-        }
-    .about {
-        background: #00b3d1;
-        color: Red;
+    font-size: 2.5em; /* Larger font size for a more prominent header */
+    margin-bottom: 20px; /* Add spacing below the heading */
 }
 
-    .project {
-        width: 30%;
-        margin: 10px;
-        padding: 20px 10px;
-        background: Red; /* pick a color */
-        border-radius: 25%;
-        width: 150px;
-        height: 200px;
-        border-radius: 25%;
-        border: 2px solid rgb(126, 14, 201);
-    }
-
-.about{
-display:flex;
-flex-wrap:wrap;
-margin-right: 100px;
-margin-left: 100px;
-justify-content: center;
+h2 {
+    color: #e63946; /* Red color for secondary headings */
+    text-align: center;
+    font-size: 1.8em; /* Slightly smaller than h1 for hierarchy */
+    margin-bottom: 15px; /* Add some space below the heading */
 }
+
+/* About Section */
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 50px;
+    gap: 20px; /* Add some space between items */
+}
+
 .about p {
-width:50%;
-text-align: center;
-margin: auto;
-line-height: 125%;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    line-height: 1.5;
+    font-size: 1.1em; /* Slightly larger text for better readability */
+    color: #555; /* A soft gray for paragraph text */
 }
+
 .about img {
-width: 150px;
-height: 200px;
-border-radius: 25%;
-border: 2px solid rgb(126, 14, 201);
+    width: 150px;
+    height: 200px;
+    border-radius: 15%; /* Slightly softer rounded corners */
+    border: 3px solid #6f7bfc; /* Blue border to match the header color */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for a lifted effect */
+    transition: transform 0.3s ease; /* Smooth scaling effect */
 }
+
+.about img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Project Section */
+.project {
+    width: 200px; /* Set width to a more reasonable value */
+    margin: 15px;
+    padding: 20px 15px;
+    background: #ff6f61; /* A soft coral color for the project background */
+    border-radius: 15%; /* Softer rounded corners */
+    border: 2px solid #e63946; /* Border matching the heading color */
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-5px); /* Lift the project card slightly on hover */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
+
+.project h3 {
+    color: #fff; /* White text for the project titles */
+    font-size: 1.2em;
+    margin-bottom: 10px; /* Space below the title */
+}
+
+.project p {
+    color: #fff; /* White text for description */
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/* Miscellaneous */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+button {
+    background: #ff6f61; /* Use a matching color for buttons */
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #e63946;

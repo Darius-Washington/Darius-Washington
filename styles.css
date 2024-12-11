@@ -1,9 +1,9 @@
 body {
-    background: [red];
+    background: [Black];
     font-family: Arial, Helvetica, sans-serif;
     }
     h1 {
-    color: Garnet;
+    color: Red;
     text-align: center;
     }
  body {
@@ -13,14 +13,14 @@ body {
         }
         h1 {
         text-align: center;
-        color: #6f7bfc;
+        color: Red;
         }
         h2 {
         text-align: center;
         color: Red;
         }
     .about {
-        background: #00b3d1;
+        background: Black;
         color: Red;
 }
 

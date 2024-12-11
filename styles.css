@@ -6,7 +6,7 @@ body {
     color: blue;
     text-align: center;
     }
-    body {
+ body {
         background: #f8feff;
         font-family:"Times New Roman", Times, serif;
         margin: 40px;
@@ -50,4 +50,4 @@ width: 150px;
 height: 200px;
 border-radius: 25%;
 border: 2px solid rgb(126, 14, 201);
-} 
+}

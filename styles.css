@@ -24,7 +24,7 @@ body {
         color: Red;
 }
 
-    .skills {
+    .skills{
         display:flex;
     flex-wrap:wrap;
     margin-right: 100px;

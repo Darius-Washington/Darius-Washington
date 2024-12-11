@@ -25,9 +25,9 @@ body {
 }
 
 .project img {
-        width: 500px;
-        height: 300px;
-        border-radius: 25%;
+        width: 800px;
+        height: 800px;
+        border-radius: 80%;
         border: 2px solid rgb(126, 14, 201);
     }
 

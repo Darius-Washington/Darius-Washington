@@ -31,22 +31,19 @@ body {
     margin-left: 100px;
     justify-content: center;
     }
-
-    .skills p {
+.skills p {
         width:50%;
         text-align: center;
         margin: auto;
         line-height: 125%;
     }
-        
 .project img {
         width: 800px;
         height: 800px;
         border-radius: 80%;
         border: 2px solid rgb(126, 14, 201);
     }
-
-    .project {
+.project {
         width: 30%;
         margin: 10px;
         padding: 20px 10px;
